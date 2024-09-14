@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scented Bliss</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Scented Bliss</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Discover Your Favorite Scent</h2>
+            <p>Explore our range of handcrafted candles, oils, and diffusers.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/candle.jpg" alt="Lavender Candle">
+                    <h3>Lavender Candle</h3>
+                    <p>$15.99</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="images/oil.jpg" alt="Rose Oil">
+                    <h3>Rose Essential Oil</h3>
+                    <p>$10.99</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="images/diffuser.jpg" alt="Wooden Diffuser">
+                    <h3>Wooden Diffuser</h3>
+                    <p>$25.99</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>"The lavender candle smells amazing and fills the entire room!"</p>
+                    <h4>- Jane D.</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Rose essential oil is the best one I've ever used. Highly recommend!"</p>
+                    <h4>- Mark S.</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"I love the wooden diffuser! It works so well with any scent I use."</p>
+                    <h4>- Emily R.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Scented Bliss. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
